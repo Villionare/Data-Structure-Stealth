@@ -20,7 +20,9 @@ public class ArrayElementsShift {
 
         //so now we have to push an 'J' at position 3
         ArrayInsert ins = new ArrayInsert();
+
         ins.insertElement(arr, 2, 'J');
+
     for (char i : arr){
         System.out.println(i);
     }

@@ -1,15 +1,31 @@
 package Process.LinkedList;
 
 public class LinkedList {
-    //insert() - will add at the end
-    //insertAt() - will add the data inbetween
-    //insertAtStart() - Will insert at start
-    //delete() - will delete the data from certain position
-    //show() - will show the elements od the List
+    Node head;
 
-    static Node head;
+    void add(int data){
+        Node newNode = new Node(data);
 
-    public static void main(String[] args) {
-        System.out.println(head);
+        if(head == null){
+            head = newNode;
+        } else {
+            Node current = head;
+            while(current.reference != null){
+                current = current.reference;
+            }
+
+            current.reference = newNode;
+        }
+    }
+
+    void show(){
+        Node n = head;
+        while (n.reference != null){
+
+            System.out.print(n.data + " -> ");
+            n = n.reference;
+
+        }
+        System.out.println("reference = null, but data is:" + n.data);
     }
 }

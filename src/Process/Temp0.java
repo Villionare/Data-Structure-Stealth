@@ -1,4 +1,4 @@
-package Temp;
+package Process;
 
 import java.util.Scanner;
 //basic input-oupp

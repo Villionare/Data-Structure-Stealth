@@ -1,30 +1,48 @@
 package Temp;
 
+import java.util.Scanner;
+
 class ArrayInsert {
     void insertElement(char[] arr, int pos, char a){
-        for (int i = arr.length - 1; i >= pos; i--){
-            arr[i] = arr[i-1];
+
+        for (int i = arr.length-1; i>= pos; i--){
+           arr[i] = arr[i-1];
         }
-        arr[pos] = a;
+
+    arr[pos -1] = a;
+
     }
 }
 
 public class ArrayElementsShift {
     public static void main(String[] args) {
-        char[] arr = new char[6];
-        arr[0] = 'A';
-        arr[1] = 'B';
-        arr[2] = 'C';
-        arr[3] = 'D';
-        arr[4] = 'E';
+        Scanner scanner = new Scanner(System.in);
 
-        //so now we have to push an 'J' at position 3
+        System.out.println("Enter the Size of the array\n");
+
+        int arraySize = scanner.nextInt();
+
+        int inpSize = arraySize -2;
+        char[] arr = new char[arraySize];
+
+        for (int i = 0; i <= inpSize; i++) {
+            System.out.print("Enter the " + i + " Element: ");
+            arr[i] = scanner.next().charAt(0); //read the first character only
+        }
+
+        for (char i : arr) {
+            System.out.print(i + " ");
+        }
+
+        System.out.println("\n");
+        System.out.println("Enter the position from where you want to insert " + "\"J\"");
+        int postion = scanner.nextInt();
+
         ArrayInsert ins = new ArrayInsert();
+        ins.insertElement(arr, postion, 'J');
 
-        ins.insertElement(arr, 2, 'J');
-
-    for (char i : arr){
-        System.out.println(i);
-    }
+        for (char i : arr) {
+            System.out.print(i+" ");
+        }
     }
 }

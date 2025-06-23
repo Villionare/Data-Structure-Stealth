@@ -93,6 +93,48 @@ public class LinkedList {
         }
     }
 
+    //function to delete a node
+    void delete(String data){
+        Node n = head;
+        Node nodeBefore = tail; //experiment ke liye tail dala hai
+
+        // Pehle us node ko dhoondo jisme yeh data ho.
+        Node temp = findNode(data);
+
+        if(temp != null){
+
+            // Agar delete karne waala node head node hai, to head ko uske next node par shift kar do.
+            if(temp == head){
+                head = head.getNext();
+
+                if(temp == tail){
+                    tail = null;
+                }
+
+            } else {
+
+                //Us node tak traverse karo jo delete hone waale node se just pehle aata hai, usse nodeBefore keh lo.
+                while(n.getNext() != temp){
+                    nodeBefore = n;
+                    n = n.getNext();
+                }
+
+                // nodeBefore ka link update karo, taaki woh delete hone waale node ke next node ki taraf point kare.
+                nodeBefore.setNext(temp.getNext());
+
+                // Agar delete hone waala node tail node hai, to nodeBefore ko tail bana do.
+                if(temp == tail){
+                    nodeBefore = tail;
+                }
+                //Aur delete hone waale node ka link null kar do (memory clean-up ke liye).
+                temp = null;
+            }
+
+        } else {
+            System.out.println("not found");
+        }
+    }
+
     void show() {
         Node n = getHead();
         while (n != null) {

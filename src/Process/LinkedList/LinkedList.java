@@ -25,4 +25,6 @@ public class LinkedList {
         }
         System.out.println("reference = null, but data is:" + n.data);
     }
+
+
 }

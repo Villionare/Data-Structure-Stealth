@@ -13,7 +13,6 @@ public class LinkedList {
             while(current.reference != null){
                 current = current.reference;
             }
-
             current.reference = newNode;
         }
     }
@@ -21,10 +20,8 @@ public class LinkedList {
     void show(){
         Node n = head;
         while (n.reference != null){
-
             System.out.print(n.data + " -> ");
             n = n.reference;
-
         }
         System.out.println("reference = null, but data is:" + n.data);
     }

@@ -41,20 +41,6 @@ public class LinkedList {
         }
     }
 
-
-    String findingNode(String data){
-        Node c = getHead();
-        int count = 0;
-
-        while (c != null) {
-            if(c.getData().equalsIgnoreCase(data)){
-            return data;
-            }
-            c = c.getNext();
-        }
-    return null;
-    }
-
     Node findNode(String data){
         Node temp = head;
 

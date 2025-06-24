@@ -14,8 +14,12 @@ public class Main {
 
         System.out.println("\n");
         list.insert("(sedd)", "rusya");
-        list.delete("vi");
-        list.delete("(sedd)");
+        //list.delete("vi");
+        //list.delete("(sedd)");
+
+        list.delete("rusya");
+        list.delete("rusyaaaa");
+
         list.show();
     }
 }

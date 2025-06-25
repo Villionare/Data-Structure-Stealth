@@ -1,4 +1,4 @@
-package Process.LinkedList.Practise;
+package Process.LinkedList.ShiftNodes;
 
 class LinkedList {
 
@@ -11,6 +11,14 @@ class LinkedList {
 
     public Node getTail() {
         return this.tail;
+    }
+
+    public void setHead(Node head) {
+        this.head = head;
+    }
+
+    public void setTail(Node tail) {
+        this.tail = tail;
     }
 
     public void addAtEnd(String data) {

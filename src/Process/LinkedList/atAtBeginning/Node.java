@@ -1,4 +1,4 @@
-package Process.LinkedList.Practise;
+package Process.LinkedList.atAtBeginning;
 
 class Node {
 

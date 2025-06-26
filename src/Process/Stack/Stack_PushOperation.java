@@ -20,7 +20,7 @@ public class Stack_PushOperation {
 
     //checking if the stack is full or not
     boolean isFull(){
-        if (top >= (maxSize - 1)){
+        if (top == maxSize - 1){
             return true;
         }
         return false;

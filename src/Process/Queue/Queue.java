@@ -26,4 +26,13 @@ public class Queue {
             return true;
         }
     }
+
+    //displaying the elements of a queue
+    void display(){
+        for (String i: arr){
+            System.out.print(i + " ");
+        }
+    }
+
+    
 }

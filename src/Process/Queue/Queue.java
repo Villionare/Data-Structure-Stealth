@@ -34,5 +34,15 @@ public class Queue {
         }
     }
 
-    
+    //Dequeue operation involves deletion of an element from the front of the queue.
+    String deQueue(){
+        if (front > rear){
+            System.out.println("The Queue is Empty.");
+            return "empty";
+        } else {
+            String retrive = arr[this.front];
+            arr[front++] = null;
+            return retrive;
+        }
+    }
 }

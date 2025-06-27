@@ -30,7 +30,7 @@ public class Stack_PushOperation {
     boolean push(int element){
         if (isFull()){
             return false;
-        } else {
+    } else {
             arr[++top] = element;
             return true;
         }

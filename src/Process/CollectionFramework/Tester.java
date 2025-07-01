@@ -18,8 +18,6 @@ public class Tester {
             System.out.println("Student Id: " + i.getStudentId());
             System.out.println("Course Registered: " + i.getCourseRegistered());
         }
-
         System.out.println(studentNames);
-
     }
 }

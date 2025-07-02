@@ -1,7 +1,6 @@
 package Process.ArrayList;
 
 import java.util.List;
-import java.util.ArrayList;
 
 class Order {
     private int orderId;

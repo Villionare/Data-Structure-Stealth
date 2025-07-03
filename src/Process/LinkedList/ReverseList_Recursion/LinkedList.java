@@ -3,32 +3,27 @@ package Process.LinkedList.ReverseList_Recursion;
 class LinkedList {
     Node head;
 
-    // Recursive method to reverse the list
-//    Node reverse(Node current) {
-//        if (current == null || current.next == null) {
-//            return current;
-//        }
-//        Node newHead = reverse(current.next);
-//        current.next.next = current;
-//        current.next = null;
-//        return newHead;
-//    }
-//
-//    void reverseList() {
-//        head = reverse(head);
-//    }
 
-    void reverse(Node head, LinkedList reversedLinkedList){
-        if (head == null){
-            return;
-        } else {
-            reverse(head.next, reversedLinkedList);
+    void reverse(){
+        Node prev;
+        Node forward;
+        Node current;
+        Node n = head;
 
-            reversedLinkedList.append(head.data);
+        while (n.next!=null){
+            current = head.next;
+            forward = current.next;
+            prev = head;
+
+            current.next = prev;
+            prev = current;
+            forward = forward.next;
+            current = forward;
+            n = n.next;
         }
+
     }
 
-    // Utility method to insert a node at the end
     void append(int data) {
         Node newNode = new Node(data);
         if (head == null) {
@@ -42,7 +37,6 @@ class LinkedList {
         temp.next = newNode;
     }
 
-    // Utility method to print the list
     void printList() {
         Node temp = head;
         while (temp != null) {
@@ -50,22 +44,6 @@ class LinkedList {
             temp = temp.next;
         }
         System.out.println("null");
-    }
-
-    public static void main(String[] args) {
-        LinkedList list = new LinkedList();
-        list.append(10);
-        list.append(20);
-        list.append(30);
-        list.append(40);
-
-        System.out.println("Original List:");
-        list.printList();
-
-        list.reverseList();
-
-        System.out.println("Reversed List:");
-        list.printList();
     }
 }
 

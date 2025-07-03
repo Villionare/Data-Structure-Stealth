@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a46cb464-e0cf-4ff2-ae37-ce85641259d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Process/LinkedList/ReverseList_Recursion/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Process/LinkedList/ReverseList_Recursion/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collections/List/Arraylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/List/Arraylist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collections/List/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/List/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Process/LinkedList/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Process/LinkedList/Temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Process/LinkedList/ReverseList_Recursion/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Process/LinkedList/ReverseList_Recursion/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Process/LinkedList/ReverseList_Recursion/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +52,7 @@
   "keyToString": {
     "Application.Arraylist.executor": "Run",
     "Application.LinkedList.executor": "Run",
+    "Application.Tester.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",

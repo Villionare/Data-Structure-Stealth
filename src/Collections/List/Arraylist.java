@@ -3,6 +3,7 @@ package Collections.List;
 import java.util.*;
 
 class stringSorting implements Comparator<String> {
+
     @Override
     public int compare(String a, String b) {
         return a.length() - b.length(); //asscending
@@ -10,10 +11,11 @@ class stringSorting implements Comparator<String> {
     }
 }
 
-class descendingSorting implements Comparator<Integer>{
+class descendingSorting implements Comparator<Integer> {
+
     @Override
     public int compare(Integer a, Integer b) {
-        return b-a;
+        return b - a;
     }
 
 // this is my observation for understanding this a-b & b-a
@@ -31,9 +33,10 @@ class descendingSorting implements Comparator<Integer>{
 //        }
 //    }
 //}
-
 }
+
 public class Arraylist {
+
     public static void main(String[] args) {
 
         List<String> lone = new ArrayList<>();
@@ -113,25 +116,22 @@ public class Arraylist {
 
 //        sortingList.sort((m, n)->n-m);
         //this is by using lambda expressions
-
         System.out.println(sortingList);
-
 
         //we lets sort the strings based upon their length, approach is the same we just have to use
         //.length property
         List<String> stringForSorting = new ArrayList<>();
-          stringForSorting.add("this");
-          stringForSorting.add("is");
-          stringForSorting.add("a");
-          stringForSorting.add("list");
-          stringForSorting.add("for");
-          stringForSorting.add("sorting");
+        stringForSorting.add("this");
+        stringForSorting.add("is");
+        stringForSorting.add("a");
+        stringForSorting.add("list");
+        stringForSorting.add("for");
+        stringForSorting.add("sorting");
 
-          stringForSorting.sort(new stringSorting());
+        stringForSorting.sort(new stringSorting());
 
         //this is the easy method by using the lambda expressions
 //          stringForSorting.sort((x, y) -> x.length() - y.length());
-
         System.out.println(stringForSorting);
     }
 }

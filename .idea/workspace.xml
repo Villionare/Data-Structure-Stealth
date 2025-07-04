@@ -5,8 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a46cb464-e0cf-4ff2-ae37-ce85641259d4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Collections/List/LinkedList/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/List/LinkedList/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/List/LinkedList/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/List/LinkedList/ReverseList_Recursion/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/List/LinkedList/ReverseList_Recursion/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/List/LinkedList/ReverseList_Recursion/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/List/LinkedList/ShiftNodes/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/List/LinkedList/ShiftNodes/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/List/LinkedList/ShiftNodes/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/List/LinkedList/Temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/List/LinkedList/addAtBeginning/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/List/LinkedList/addAtBeginning/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/List/LinkedList/addAtBeginning/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/List/LinkedList/atAtBeginning/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/List/LinkedList/atAtBeginning/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/List/LinkedList/atAtBeginning/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/List/LinkedList/findingAnElement/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/List/LinkedList/findingAnElement/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/List/LinkedList/findingAnElement/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/List/Vector/Tester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Process/LinkedList/ReverseList_Recursion/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Process/LinkedList/ReverseList_Recursion/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/List/Arraylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/List/ArrayList/Arraylist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/List/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/List/ArrayList/Tester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +78,18 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/home4/Intelli_java/DSA/src/Collections/List/ArrayList",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\home4\Intelli_java\DSA\src\Collections\List\ArrayList" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="git" />

@@ -3,26 +3,30 @@ package Process.LinkedList.ReverseList_Recursion;
 class LinkedList {
     Node head;
 
-
     void reverse(){
-        Node prev;
-        Node forward;
-        Node current;
-        Node n = head;
+        Node prev = null;
+        Node temp = head;
 
-        while (n.next!=null){
-            current = head.next;
-            forward = current.next;
-            prev = head;
-
-            current.next = prev;
-            prev = current;
-            forward = forward.next;
-            current = forward;
-            n = n.next;
+        while (temp!=null){
+            Node front = temp.next;
+            temp.next = prev;
+            prev = temp;
+            temp = front;
         }
-
+        head = prev; //last wala ye element head me stored reh jaaega par link nahi ho paaega isiliye ise manually hamne head banaya hai.
     }
+
+    //now solving the the problem using Recursion.
+//    void reverse(Node head){
+//        if(head.next == null || head == null){ //base case
+//            return head;
+//        } else {
+//            //head (1)
+//            //head.next = prev; (2)
+//            //head.nxt.nxt = node;
+//
+//        }
+//    }
 
     void append(int data) {
         Node newNode = new Node(data);

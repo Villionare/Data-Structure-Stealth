@@ -9,8 +9,8 @@ public class Stack_PushOperation {
 //    Return true
 
     private int top;
-    private int maxSize;
-    private int[] arr;
+    private final int maxSize;
+    private final int[] arr;
 
     Stack_PushOperation(int maxSize){
         this.top = -1; //top should be -1 when the stack is created
@@ -56,13 +56,13 @@ public class Stack_PushOperation {
         return top < 0;
     }
 
-    //pop operation - the process of removing only the top element
-//    Check whether the stack is empty.
-//    If the stack is empty, return appropriate message
-//    If the stack is not empty,
-//    Retrieve data at the top of the stack
-//    Decrement top by 1
-//    Return the retrieved element
+          //pop operation - the process of removing only the top element
+         //Check whether the stack is empty.
+        //If the stack is empty, return appropriate message
+       //If the stack is not empty,
+      //Retrieve data at the top of the stack
+     //Decrement top by 1
+    //Return the retrieved element
     int pop(){
         if(isEmpty()){
             System.out.println("Stack is empty.");

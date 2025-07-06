@@ -4,8 +4,8 @@ class Queue {
 
     private int front;
     private int rear;
-    private int maxSize;
-    private int arr[];
+    private final int maxSize;
+    private final int[] arr;
 
     public int[] getArr() {
         return arr;
@@ -45,9 +45,7 @@ class Queue {
     }
 
     public boolean isEmpty() {
-        if (front > rear)
-            return true;
-        return false;
+        return front > rear;
     }
 
     public int dequeue() {

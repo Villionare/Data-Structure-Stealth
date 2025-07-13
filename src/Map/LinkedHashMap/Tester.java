@@ -13,7 +13,6 @@ class Student {
         this.name = name;
         this.id = id;
     }
-
 }
 
 public class Tester {

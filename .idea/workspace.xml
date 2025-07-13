@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a46cb464-e0cf-4ff2-ae37-ce85641259d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Expriments/index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Process/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/ArrayList/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/ArrayList/Max.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DSA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map/LinkedHashMap/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/LinkedHashMap/Tester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +51,7 @@
   "keyToString": {
     "Application.Arraylist.executor": "Run",
     "Application.LinkedList.executor": "Run",
+    "Application.Max.executor": "Run",
     "Application.QuickSort.executor": "Run",
     "Application.Tester.executor": "Run",
     "Application.index.executor": "Run",

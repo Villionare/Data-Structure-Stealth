@@ -36,7 +36,6 @@ public class Tester {
 //        }
 
         for (int i = 0; i <3;i++){
-            ArrayList<Integer> temp = new ArrayList<>();
             for (int j = 0; j<3;j++){
                 System.out.printf("list[%d][%d] = ",i,j);
                list.get(i).add(scanner.nextInt());

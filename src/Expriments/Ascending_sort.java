@@ -3,6 +3,7 @@ package Expriments;
 import java.util.Arrays;
 
 public class Ascending_sort {
+//this algo has them time complexity of O(n square)
 
     public static void main(String[] args) {
         //ascending order sort
@@ -24,7 +25,6 @@ public class Ascending_sort {
                 }
             }
         }
-
         return arr;
     }
 }

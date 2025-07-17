@@ -3,7 +3,7 @@ package Expriments;
 public class Solution2 {
 
     public static void main(String[] args) {
-        int nums = {}
+        int[] nums = {1,1,2,3,3,4,4,5,5,6,6};
         System.out.println(singleNonDuplicate(nums));
     }
         public static int singleNonDuplicate(int[] nums) {

@@ -2,12 +2,12 @@ package com.DsaPlaylist.BinarySearch.Questions;
 
 public class Ceiling {
     public static void main(String[] args) {
-        //ceiling = smallest element in the array, greater or = target
+        //ceiling = smallest element greater or = target
         //ceil of target is >= target
 
         int[] arr = {2,3,5,9,14,16,18};
 
-        int target = 10;
+        int target = 15;
 
         System.out.println(floor(arr, target));
     }
@@ -17,6 +17,11 @@ public class Ceiling {
         int start = 0;
         int end = arr.length - 1;
         int mid = 0;
+
+        //if the target is greater than the last number of the array than:
+        if (target > arr[arr.length-1]){
+            return -1;
+        }
 
         while (start<=end){
             mid = start + (end - start)/2;
@@ -29,6 +34,6 @@ public class Ceiling {
                 return mid;
             }
         }
-        return arr[end];
+        return arr[start];
     }
 }

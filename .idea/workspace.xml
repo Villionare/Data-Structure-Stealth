@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/Questions/Ceiling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/Questions/Floor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Expriments/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expriments/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/Questions/Ceiling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/Questions/Ceiling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/Questions/Floor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/Questions/Floor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,8 @@
   "keyToString": {
     "Application.Ascending_sort.executor": "Run",
     "Application.Ceiling.executor": "Run",
-    "Application.Main.executor": "Debug",
+    "Application.Floor.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.OrderAgnosticBinarySearch.executor": "Run",
     "Application.Question_LeetCode.executor": "Run",
     "Application.RangeSearch.executor": "Run",

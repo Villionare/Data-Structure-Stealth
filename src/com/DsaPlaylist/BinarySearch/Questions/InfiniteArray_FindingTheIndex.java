@@ -3,10 +3,12 @@ package com.DsaPlaylist.BinarySearch.Questions;
 //given an infinite sorted array and finding out the index of some element
 
 //https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/
+
 //since we have infinite we do not have bounds to perform binary search
 //so we won't consider length property of the array(we will solve it w/o using length)
 
 public class InfiniteArray_FindingTheIndex {
+
     public static void main(String[] args) {
         int[] nums = {3,5,7,9,10,90,10,130,140,160,170};
         int target = 10;

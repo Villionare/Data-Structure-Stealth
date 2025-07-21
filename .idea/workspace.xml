@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/Questions/RotatedSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Process_onliceCourse/Array/ArrayElementsShift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Process_onliceCourse/Array/ArrayElementsShift.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Process_onliceCourse/Array/DeleteElementFromArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Process_onliceCourse/Array/DeleteElementFromArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Process_onliceCourse/ArrayList/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Process_onliceCourse/ArrayList/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Process_onliceCourse/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Process_onliceCourse/LinkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Process_onliceCourse/LinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Process_onliceCourse/LinkedList/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/Questions/SearchingInBitonic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/Questions/SearchingInBitonic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +48,7 @@
     "Application.Question_LeetCode.executor": "Run",
     "Application.RangeSearch.executor": "Run",
     "Application.RangeSearching.executor": "Run",
+    "Application.RotatedSortedArray.executor": "Debug",
     "Application.SearchingInBitonic.executor": "Debug",
     "Application.Solution.executor": "Run",
     "Application.Solution2.executor": "Run",
@@ -86,5 +82,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/Questions/RotatedSortedArray.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

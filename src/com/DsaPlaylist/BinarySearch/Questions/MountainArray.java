@@ -32,6 +32,25 @@ public class MountainArray {
 
     }
 
+    //this is a smaller and optimised one
+//    static int peak(MountainArray arr) {
+//        int start = 0;
+//        int end = arr.length() - 1;
+//
+//        while (start < end) {
+//            int mid = start + (end - start) / 2;
+//            int midVal = arr.get(mid);
+//            int nextVal = arr.get(mid + 1);
+//
+//            if (midVal < nextVal) {
+//                start = mid + 1;
+//            } else {
+//                end = mid;
+//            }
+//        }
+//        return start; // or end, both point to the peak
+//    }
+
     static int binarySearch(int[] arr){
     //so now we need to find the middle index
     int start = 0;

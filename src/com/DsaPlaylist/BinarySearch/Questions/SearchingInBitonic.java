@@ -6,45 +6,117 @@ public class SearchingInBitonic {
     static int staticRight;
 
     public static void main(String[] args) {
-    int[] arr = {1,2,3,4,5,3,1};
+    int[] arr = {1,5,2};
 
-    int found = search(arr,3);
-    System.out.println(staticLeft);
+        System.out.println("Search Final: " + search(arr,2));
     }
 
     static int search(int[] arr, int target){
         //searching for the peak in bitonic array
         int peak = peak(arr);
-
+        System.out.println("peak: "+peak);
         if (peak==-1){
             System.out.println("problem in the bitonic array");
         }else {
 
             staticLeft = binarySearch(arr, target, 0, peak);
+            System.out.println("static left: " + staticLeft);
 
-            staticRight = binarySearch(arr, target, peak + 1, arr.length-1);
+            if(staticLeft==-1){
 
-        }
-        return -1;
-    }
+                staticRight = binarySearch(arr, target, peak + 1, arr.length-1);
+                System.out.println("static Right: " + staticRight);
 
-    static int binarySearch(int[] arr, int target, int start, int end){
+                return staticRight;
 
-        //so now we need to find the middle index
-
-        while (start <= end){
-            int mid = start + (end - start)/2;
-            if (target > arr[mid]){
-                start = mid + 1;
-            } else if (target < arr[mid]) {
-                end = mid - 1;
-            } else if (arr[mid] == target) {
-                return mid;
             }
+
         }
-        //if not found
         return -1;
     }
+
+    static int binarySearch(int[] arr, int target, int start, int end) {
+
+        if (arr[start] < arr[end]) {
+            // ascending
+            while (start <= end) {
+                int mid = start + (end - start) / 2;
+
+                if (target < arr[mid]) {
+                    end = mid - 1;
+                } else if (target > arr[mid]) {
+                    start = mid + 1;
+                } else {
+                    return mid;
+                }
+            }
+
+        } else if (arr[start] > arr[end]) {
+            // descending
+            while (start <= end) {
+                int mid = start + (end - start) / 2;
+
+                if (target < arr[mid]) {
+                    start = mid + 1;
+                } else if (target > arr[mid]) {
+                    end = mid - 1;
+                } else {
+                    return mid;
+                }
+            }
+
+        }
+        // No immediate return here; let the loop do the search.
+        return -1;
+    }
+
+//    static int binarySearch(int[] arr, int target, int start, int end){
+//
+//        if (arr[start] < arr[end]) {
+//            //ascending order
+//
+//            while (start <= end) {
+//
+//                int mid = start + (end - start) / 2;
+//
+//                if (target < arr[mid]) {
+//
+//                    end = mid - 1;
+//
+//                } else if (target > arr[mid]) {
+//
+//                    start = mid + 1;
+//
+//                } else if (target == arr[mid]) {
+//                    return mid;
+//                }
+//            }
+//
+//        } else if (arr[start] > arr[end]) {
+//            //descending order
+//
+//            while (start <= end) {
+//
+//                int mid = start + (end - start) / 2;
+//
+//                if (target < arr[mid]) {
+//
+//                    start = mid + 1;
+//
+//                } else if (target > arr[mid]) {
+//
+//                    end = mid - 1;
+//
+//                } else if (target == arr[mid]) {
+//                    return mid;
+//                }
+//
+//            }
+//
+//        }
+//        //if not found
+//        return -1;
+//    }
 
     static int peak(int[] arr){
         //so now we need to find the middle index

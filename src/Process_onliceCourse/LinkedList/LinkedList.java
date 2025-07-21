@@ -1,9 +1,13 @@
 package Process_onliceCourse.LinkedList;
 
 public class LinkedList {
-    private Node head;
+    Node head;
     private Node tail;
     private Node temp;
+
+    public Node getHead() {
+        return head;
+    }
 
     public Node getTail() {
         return tail;
@@ -30,11 +34,12 @@ public class LinkedList {
         Node node = new Node(data);
 
         if(this.head == null){
-            this.head = node;
-            this.tail = node;
-
+            setHead(node);
+            setTail(node);
         } else {
-            Node n = head;
+            Node n = getHead();
+
+            setTail(node);
 
             while(n.getNext() != null){
                 n = n.getNext();
@@ -44,13 +49,15 @@ public class LinkedList {
     }
 
     Node findNode(String data){
-        Node n =  this.head;
+        Node n = head;
 
         while (n.getNext() != null){
             if(n.getData().equals(data)){
+                System.out.println("found");
                 return n;
             }
-            n.setNext(n.getNext());
+//            n.setNext(n.getNext());//this is a very big mistake
+        n = n.getNext(); //this should be done
         }
         return null;
     }
@@ -82,7 +89,7 @@ public class LinkedList {
 
     void delete(String data){
         Node n = this.head;
-        Node nodeBefore; //experiment ke liye tail dala hai
+        Node nodeBefore;
 
         // Pehle us node ko dhoondo jisme yeh data ho.
         temp = findNode(data);
@@ -135,7 +142,7 @@ public class LinkedList {
     }
 
     void show() {
-        Node current = this.head;
+        Node current = getHead();
         while (current != null) {
             System.out.println(current.getData());
             current = current.getNext();

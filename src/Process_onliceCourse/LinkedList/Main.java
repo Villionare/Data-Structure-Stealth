@@ -13,6 +13,8 @@ public class Main {
         list.add("sixth");
         list.add("seventh");
 
+        list.findNode("fifth");
+
         list.insert("fourth", "rusya");
 
         list.delete("fourth");
@@ -23,7 +25,7 @@ public class Main {
         list.addAtBeginning("a");
         list.addAtBeginning("Linked");
         list.addAtBeginning("List");
-
+//
         list.show();
     }
 }

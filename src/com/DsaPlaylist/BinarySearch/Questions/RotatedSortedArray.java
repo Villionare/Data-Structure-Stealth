@@ -164,8 +164,8 @@ class Solution {
 public class RotatedSortedArray {
 
     public static void main(String[] args) {
-        int[] arr = {1};
-        int target = 0;
+        int[] arr = {1,3,5,7,2,4,6,7};
+        int target = 7;
 
         Solution start = new Solution();
 

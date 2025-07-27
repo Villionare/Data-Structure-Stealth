@@ -8,7 +8,7 @@ package com.DsaPlaylist.BinarySearch.Questions;
 //3. if exists in any side return [index]
 //4. else return -1;
 
-//class Solution {
+//class Solution1 {
 //    public int search(int[] nums, int target) {
 //
 //        if (nums.length == 1){
@@ -131,7 +131,7 @@ package com.DsaPlaylist.BinarySearch.Questions;
 //2. now when we have found the pivot then we have 2 ascending sorted arrays
 //3. do binary search on them one by one to check target
 
-class Solution {
+class Solution1 {
     public int search(int[] nums, int target) {
         int start = 0;
         int end = nums.length-1;
@@ -167,7 +167,7 @@ public class RotatedSortedArray {
         int[] arr = {1,3,5,7,2,4,6,7};
         int target = 7;
 
-        Solution start = new Solution();
+        Solution1 start = new Solution1();
 
         System.out.println(start.search(arr, target));
     }

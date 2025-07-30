@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/TwoD_Array/Temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/TwoD_Array/StrictlySortedMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/TwoD_Array/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/TwoD_Array/Temp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,7 @@
     "Application.Solution.executor": "Run",
     "Application.Solution2.executor": "Run",
     "Application.SplitArrayLargestSum.executor": "Run",
+    "Application.StrictlySortedMatrix.executor": "Debug",
     "Application.Temp.executor": "Run",
     "Application.Tester.executor": "Run",
     "Application.Two_Dimensional_Array.executor": "Run",
@@ -87,5 +89,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/TwoD_Array/StrictlySortedMatrix.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

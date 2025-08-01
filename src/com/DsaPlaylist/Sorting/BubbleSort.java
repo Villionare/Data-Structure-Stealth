@@ -8,20 +8,27 @@ public class BubbleSort {
 
     public static void main(String[] args) {
         int[] arr = {2,7,4,5,9,1};
+        System.out.println(Arrays.toString(arr));
 
+        int[] sortedArr = Bubble(arr);
+        System.out.println(Arrays.toString(sortedArr));
+
+    }
+
+    static int[] Bubble(int[] arr){
         for (int i = arr.length-1; i >= 0; i--){
 
             for (int j = 0; j < i; j++){
                 int temp = 0;
 
-                if (arr[i]>arr[i+1]){
-                    temp = arr[i];
-                    arr[i] = arr[i+1];
-                    arr[i+1] = temp;
+                if (arr[j]>arr[j+1]){
+                    temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
                 }
             }
-            System.out.println(Arrays.toString(arr));
+//            System.out.println(Arrays.toString(arr));
         }
-
+        return arr;
     }
 }

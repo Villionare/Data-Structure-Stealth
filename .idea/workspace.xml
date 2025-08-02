@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Sorting/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Sorting/LeetCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Sorting/Practise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DsaPlaylist/Sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Sorting/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DsaPlaylist/Sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Sorting/InsertionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +45,7 @@
     "Application.DeleteElementFromArray.executor": "Run",
     "Application.Floor.executor": "Run",
     "Application.InfiniteArray_FindingTheIndex.executor": "Run",
+    "Application.InsertionSort.executor": "Debug",
     "Application.LeetCode.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MountainArray.executor": "Run",
@@ -75,6 +73,26 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DsaPlaylist.Sorting.InsertionSort" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DsaPlaylist.Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.InsertionSort" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="" />
@@ -103,6 +121,11 @@
           <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/TwoD_Array/StrictlySortedMatrix.java</url>
           <line>19</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/Sorting/InsertionSort.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Expriments/Ascending_sort.java</url>

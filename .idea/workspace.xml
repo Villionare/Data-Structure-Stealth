@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/HcfAndLCM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/Questions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,65 +36,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayElementsShift.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ascending_sort.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ceiling.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Check.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountOfRotation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeleteElementFromArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Floor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InfiniteArray_FindingTheIndex.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InsertionSort.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LeetCode.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MountainArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OrderAgnosticBinarySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Practise.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question_LeetCode.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RangeSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RangeSearching.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RotatedSortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RowColMatrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SearchingInBitonic.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SelectionSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SplitArrayLargestSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StrictlySortedMatrix.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Temp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Tester.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Two_Dimensional_Array.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayElementsShift.executor": "Run",
+    "Application.Ascending_sort.executor": "Debug",
+    "Application.BubbleSort.executor": "Run",
+    "Application.Ceiling.executor": "Run",
+    "Application.Check.executor": "Run",
+    "Application.CountOfRotation.executor": "Run",
+    "Application.DeleteElementFromArray.executor": "Run",
+    "Application.Floor.executor": "Run",
+    "Application.HcfAndLCM.executor": "Debug",
+    "Application.InfiniteArray_FindingTheIndex.executor": "Run",
+    "Application.InsertionSort.executor": "Debug",
+    "Application.LeetCode.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MountainArray.executor": "Run",
+    "Application.OrderAgnosticBinarySearch.executor": "Run",
+    "Application.Practise.executor": "Run",
+    "Application.Question_LeetCode.executor": "Run",
+    "Application.RangeSearch.executor": "Run",
+    "Application.RangeSearching.executor": "Run",
+    "Application.RotatedSortedArray.executor": "Run",
+    "Application.RowColMatrix.executor": "Run",
+    "Application.SearchingInBitonic.executor": "Debug",
+    "Application.SelectionSort.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.Solution2.executor": "Run",
+    "Application.SplitArrayLargestSum.executor": "Run",
+    "Application.StrictlySortedMatrix.executor": "Debug",
+    "Application.Temp.executor": "Run",
+    "Application.Tester.executor": "Run",
+    "Application.Two_Dimensional_Array.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DsaPlaylist.Sorting.InsertionSort" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DsaPlaylist.Sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.InsertionSort" />
-      </list>
-    </recent_temporary>
-  </component>
+}]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="" />
@@ -121,11 +109,6 @@
           <line>19</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/Sorting/InsertionSort.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Expriments/Ascending_sort.java</url>
           <line>15</line>
@@ -134,6 +117,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/HcfAndLCM.java</url>
+          <line>19</line>
+          <properties class="com.DsaPlaylist.Assignments.HcfAndLCM" method="HCF">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

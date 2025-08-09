@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/HcfAndLCM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/Questions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/LeapYearCalucator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/HcfAndLCM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/HcfAndLCM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +46,10 @@
     "Application.CountOfRotation.executor": "Run",
     "Application.DeleteElementFromArray.executor": "Run",
     "Application.Floor.executor": "Run",
-    "Application.HcfAndLCM.executor": "Debug",
+    "Application.HcfAndLCM.executor": "Run",
     "Application.InfiniteArray_FindingTheIndex.executor": "Run",
     "Application.InsertionSort.executor": "Debug",
+    "Application.LeapYearCalucator.executor": "Run",
     "Application.LeetCode.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MountainArray.executor": "Run",
@@ -117,15 +118,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/HcfAndLCM.java</url>
-          <line>19</line>
-          <properties class="com.DsaPlaylist.Assignments.HcfAndLCM" method="HCF">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,9 +1,8 @@
 package com.DsaPlaylist.Assignments;
 
 //https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/description/
-public class LeetCode_1281 {
-    static class Solution {
-        public static int subtractProductAndSum(int n) {
+    class Solution {
+        public int subtractProductAndSum(int n) {
             int sum = 0;
             int product = 1;
 
@@ -17,6 +16,9 @@ public class LeetCode_1281 {
             return (product-sum);
         }
     }
+
+public class LeetCode_1281 {
+
 
     public static void main(String[] args) {
         Solution solution = new Solution();

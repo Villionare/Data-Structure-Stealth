@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/LeapYearCalucator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/SimpleInterestCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/HcfAndLCM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/HcfAndLCM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/SimpleInterstCalculator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,7 @@
     "Application.Main.executor": "Run",
     "Application.MountainArray.executor": "Run",
     "Application.OrderAgnosticBinarySearch.executor": "Run",
+    "Application.Palindrome.executor": "Run",
     "Application.Practise.executor": "Run",
     "Application.Question_LeetCode.executor": "Run",
     "Application.RangeSearch.executor": "Run",
@@ -62,6 +63,7 @@
     "Application.RowColMatrix.executor": "Run",
     "Application.SearchingInBitonic.executor": "Debug",
     "Application.SelectionSort.executor": "Run",
+    "Application.SimpleInterestCalculator.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.Solution2.executor": "Run",
     "Application.SplitArrayLargestSum.executor": "Run",
@@ -78,7 +80,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
   <component name="TaskManager">
@@ -109,6 +111,16 @@
           <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/TwoD_Array/StrictlySortedMatrix.java</url>
           <line>19</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/Palindrome.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/Palindrome.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Expriments/Ascending_sort.java</url>

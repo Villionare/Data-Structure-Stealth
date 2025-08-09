@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/SimpleInterestCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/ArmstrongNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/FibonacciSeries.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/SimpleInterstCalculator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -38,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArmstrongNumber.executor": "Run",
     "Application.ArrayElementsShift.executor": "Run",
     "Application.Ascending_sort.executor": "Debug",
     "Application.BubbleSort.executor": "Run",
@@ -45,6 +45,7 @@
     "Application.Check.executor": "Run",
     "Application.CountOfRotation.executor": "Run",
     "Application.DeleteElementFromArray.executor": "Run",
+    "Application.FibonacciSeries.executor": "Run",
     "Application.Floor.executor": "Run",
     "Application.HcfAndLCM.executor": "Run",
     "Application.InfiniteArray_FindingTheIndex.executor": "Run",
@@ -113,14 +114,9 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/Palindrome.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/Palindrome.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="11" />
+          <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/FibonacciSeries.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Expriments/Ascending_sort.java</url>

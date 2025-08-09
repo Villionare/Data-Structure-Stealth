@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/ArmstrongNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/FibonacciSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/AreasAndParameters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/ArmstrongNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/ArmstrongNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AreasAndParameters.executor": "Run",
     "Application.ArmstrongNumber.executor": "Run",
     "Application.ArrayElementsShift.executor": "Run",
     "Application.Ascending_sort.executor": "Debug",

@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/TowerOfHanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/LeetCode_1470.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/LeetCode_1480.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/LeetCode_1929.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/PerfectNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/PerfectNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,9 @@
     "Application.InsertionSort.executor": "Debug",
     "Application.LeapYearCalucator.executor": "Run",
     "Application.LeetCode.executor": "Run",
+    "Application.LeetCode_1470.executor": "Run",
+    "Application.LeetCode_1480.executor": "Run",
+    "Application.LeetCode_1929.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MountainArray.executor": "Run",
     "Application.OrderAgnosticBinarySearch.executor": "Run",

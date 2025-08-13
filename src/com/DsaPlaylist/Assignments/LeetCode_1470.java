@@ -7,8 +7,6 @@ public class LeetCode_1470 {
 
     public static int[] shuffle(int[] nums, int n) {
         int[] ordered = new int[nums.length];
-        //{2,5,1,      3,4,7}
-//        [] [] [] [] [] []
 
         int count = 0;
         for(int i = 0; i<n; i++){

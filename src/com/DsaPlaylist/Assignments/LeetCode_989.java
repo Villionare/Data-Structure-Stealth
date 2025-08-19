@@ -1,42 +1,22 @@
 package com.DsaPlaylist.Assignments;
 
-import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 
 public class LeetCode_989 {
     public static List<Integer> addToArrayForm(int[] num, int k) {
-        List<Integer> output= new ArrayList<>();
-//        int no = 0;
-        BigInteger bigNo = BigInteger.ZERO;
 
+        List<Integer> output = new ArrayList<>();
+        int i = num.length - 1;
 
-        for(int i:num){
-            bigNo = bigNo.multiply(BigInteger.TEN)
-                    .add(BigInteger.valueOf(i));
+        while (i >= 0 || k > 0) {
+            if (i >= 0) {
+                k += num[i];  // add digit from array + carry (stored in k)
+                i--;
+            }
+            output.addFirst(k % 10);  // store last digit
+            k /= 10;                  // update carry + remaining k
         }
-
-        System.out.println();
-
-        bigNo = bigNo.add(BigInteger.valueOf(k));
-
-//        while(no>0){
-//            long s = no%10;
-//            output.addFirst((int)s);
-//            no = no/10;
-//        }
-
-        while (bigNo.compareTo(BigInteger.ZERO) > 0) {
-            BigInteger[] divRem = bigNo.divideAndRemainder(BigInteger.TEN);
-            // divRem[0] = quotient, divRem[1] = remainder
-
-            int digit = divRem[1].intValue(); // remainder is the last digit
-            output.addFirst(digit);
-
-            bigNo = divRem[0]; // update to quotient
-        }
-
-
         return output;
     }
 

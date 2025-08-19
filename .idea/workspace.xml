@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java/assignments/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/LeetCode_1886.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java" beforeDir="false" afterPath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java/assignments/05-arrays.md" beforeDir="false" afterPath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java/assignments/05-arrays.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/LeetCode_989.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/LeetCode_989.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +66,7 @@
     "Application.LeetCode_1512.executor": "Debug",
     "Application.LeetCode_1572.executor": "Run",
     "Application.LeetCode_1832.executor": "Run",
+    "Application.LeetCode_1886.executor": "Run",
     "Application.LeetCode_1929.executor": "Run",
     "Application.LeetCode_832.executor": "Run",
     "Application.LeetCode_867.executor": "Run",
@@ -135,11 +136,6 @@
           <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/FibonacciSeries.java</url>
           <line>20</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/LeetCode_989.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Expriments/Ascending_sort.java</url>

@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java/assignments/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/LeetCode_1886.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/LeetCode_566.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/Practise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/Still/LeetCode_1380.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java" beforeDir="false" afterPath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java/assignments/05-arrays.md" beforeDir="false" afterPath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java/assignments/05-arrays.md" afterDir="false" />
@@ -24,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -61,6 +63,7 @@
     "Application.LeetCode.executor": "Run",
     "Application.LeetCode_1252.executor": "Run",
     "Application.LeetCode_1281.executor": "Debug",
+    "Application.LeetCode_1380.executor": "Run",
     "Application.LeetCode_1470.executor": "Run",
     "Application.LeetCode_1480.executor": "Run",
     "Application.LeetCode_1512.executor": "Debug",
@@ -68,6 +71,7 @@
     "Application.LeetCode_1832.executor": "Run",
     "Application.LeetCode_1886.executor": "Run",
     "Application.LeetCode_1929.executor": "Run",
+    "Application.LeetCode_566.executor": "Debug",
     "Application.LeetCode_832.executor": "Run",
     "Application.LeetCode_867.executor": "Run",
     "Application.LeetCode_989.executor": "Debug",
@@ -136,6 +140,16 @@
           <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/FibonacciSeries.java</url>
           <line>20</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/Still/LeetCode_1380.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/LeetCode_566.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Expriments/Ascending_sort.java</url>

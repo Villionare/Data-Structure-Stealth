@@ -9,8 +9,8 @@ public class LeetCode_1217 {
         int evenCount = 0;
         int oddCount = 0;
 
-        for(int i=0; i<position.length; i++){
-            if (position[i] % 2 == 0) {
+        for (int j : position) {
+            if (j % 2 == 0) {
                 evenCount++;
             } else {
                 oddCount++;

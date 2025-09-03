@@ -6,12 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java/assignments/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/LeetCode_1217.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/LeetCode_26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/LeetCode_169.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/LeetCode_55.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/SquareRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java" beforeDir="false" afterPath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java/assignments/05-arrays.md" beforeDir="false" afterPath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java/assignments/05-arrays.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/Practise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/Practise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java/assignments/06-searching.md" beforeDir="false" afterPath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java/assignments/06-searching.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/Still/LeetCode_1217.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/Still/LeetCode_1217.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DsaPlaylist/Sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Sorting/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +73,12 @@
     "Application.LeetCode_1480.executor": "Run",
     "Application.LeetCode_1512.executor": "Debug",
     "Application.LeetCode_1572.executor": "Run",
+    "Application.LeetCode_169.executor": "Debug",
     "Application.LeetCode_1832.executor": "Run",
     "Application.LeetCode_1886.executor": "Run",
     "Application.LeetCode_1929.executor": "Run",
     "Application.LeetCode_26.executor": "Debug",
+    "Application.LeetCode_55.executor": "Run",
     "Application.LeetCode_566.executor": "Debug",
     "Application.LeetCode_832.executor": "Run",
     "Application.LeetCode_867.executor": "Run",
@@ -96,6 +102,7 @@
     "Application.Solution.executor": "Run",
     "Application.Solution2.executor": "Run",
     "Application.SplitArrayLargestSum.executor": "Run",
+    "Application.SquareRoot.executor": "Debug",
     "Application.StrictlySortedMatrix.executor": "Debug",
     "Application.Temp.executor": "Run",
     "Application.Tester.executor": "Run",
@@ -108,7 +115,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.general"
@@ -170,6 +177,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/LeetCode_169.java</url>
+          <line>5</line>
+          <properties class="com.DsaPlaylist.Assignments.LeetCode_169" method="majorityElement">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/Assignments/SquareRoot.java</url>
+          <line>3</line>
+          <properties class="com.DsaPlaylist.Assignments.SquareRoot" method="SquareRoot">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -5,14 +5,13 @@ public class Floor {
         //floor of target is the greatest number smaller than equals to target (<= target)
 
         int[] arr = {2,3,5,9,14,16,18};
-
         int target = 10;
 
-        System.out.println(ceiling(arr, target));
+        System.out.println(floor(arr, target));
     }
 
-    static int ceiling(int[] arr, int target){
-
+    static int floor(int[] arr, int target){
+//    var first = new int[44];
         int start = 0;
         int end = arr.length - 1;
         int mid = 0;
@@ -33,5 +32,9 @@ public class Floor {
             }
         }
         return arr[end];
+
+
+
+
     }
 }

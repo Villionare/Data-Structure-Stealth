@@ -12,7 +12,7 @@ public class Ceiling {
 
         int[] arr = {2,3,5,9,14,16,18};
 
-        int target = 18;
+        int target = 4;
 
         System.out.println(ceiling(arr, target));
     }
@@ -41,5 +41,6 @@ public class Ceiling {
             }
         }
         return arr[start];
+
     }
 }

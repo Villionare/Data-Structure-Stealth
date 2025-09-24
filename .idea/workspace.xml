@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java/assignments/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Strings/Pattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Strings/StringRevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Recursion/Basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Recursion/RecusionBiggner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java" beforeDir="false" afterPath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java/assignments/05-arrays.md" beforeDir="false" afterPath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java/assignments/05-arrays.md" afterDir="false" />
@@ -89,10 +89,12 @@
     "Application.Pattern.executor": "Run",
     "Application.PerfectNumber.executor": "Debug",
     "Application.Practise.executor": "Run",
+    "Application.Prepare.executor": "Run",
     "Application.PrintAllFactors.executor": "Run",
     "Application.Question_LeetCode.executor": "Run",
     "Application.RangeSearch.executor": "Run",
     "Application.RangeSearching.executor": "Run",
+    "Application.RecusionBiggner.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.RotatedSortedArray.executor": "Run",
     "Application.RowColMatrix.executor": "Run",
@@ -112,6 +114,8 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "ToolWindow.Run.ShowToolbar": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",

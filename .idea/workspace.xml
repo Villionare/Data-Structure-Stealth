@@ -6,12 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java/assignments/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Recursion/Basic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Recursion/RecusionBiggner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Recursion/FibonaachiSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Recursion/RecursionBinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java" beforeDir="false" afterPath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java/assignments/05-arrays.md" beforeDir="false" afterPath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java/assignments/05-arrays.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java/assignments/06-searching.md" beforeDir="false" afterPath="$PROJECT_DIR$/github-repo/DSA-Bootcamp-Java/assignments/06-searching.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DsaPlaylist/Recursion/RecusionBiggner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Recursion/RecusionBiggner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,7 @@
     "Application.CountOfRotation.executor": "Run",
     "Application.DeleteElementFromArray.executor": "Run",
     "Application.Factorial.executor": "Run",
+    "Application.FibonaachiSeries.executor": "Debug",
     "Application.FibonacciSeries.executor": "Run",
     "Application.Floor.executor": "Run",
     "Application.ForwardForwardAlgorithem.executor": "Run",
@@ -94,6 +96,7 @@
     "Application.Question_LeetCode.executor": "Run",
     "Application.RangeSearch.executor": "Run",
     "Application.RangeSearching.executor": "Run",
+    "Application.RecursionBinarySearch.executor": "Run",
     "Application.RecusionBiggner.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.RotatedSortedArray.executor": "Run",
@@ -209,6 +212,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/DsaPlaylist/Recursion/FibonaachiSeries.java</url>
+          <line>12</line>
+          <properties class="com.DsaPlaylist.Recursion.FibonaachiSeries" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

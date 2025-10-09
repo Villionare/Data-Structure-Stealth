@@ -6,7 +6,8 @@ public class RecursionBinarySearch {
 
         System.out.println(Binary(0, arr.length-1, 8, arr));
     }
-    
+
+
     static int Binary(int start, int end, int target, int[] arr){
         int n = (start + end)/2;
         

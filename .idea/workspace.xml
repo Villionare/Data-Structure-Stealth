@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NQT/Questions/FourteenthReverseAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NQT/Questions/ThirteenthCountVowelsAndConsonants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NQT/Questions/FifteenthAnagramChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NQT/Questions/TwelthCheckLeapYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NQT/Questions/TwelthCheckLeapYear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NQT/Questions/FourteenthReverseAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NQT/Questions/FourteenthReverseAString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +57,7 @@
     "Application.FibonaachiSeries.executor": "Debug",
     "Application.Fibonacci.executor": "Run",
     "Application.FibonacciSeries.executor": "Run",
+    "Application.FifteenthAnagramChecker.executor": "Run",
     "Application.Floor.executor": "Run",
     "Application.ForwardForwardAlgorithem.executor": "Run",
     "Application.FourteenthReverseAString.executor": "Run",
@@ -145,6 +145,14 @@
     "settings.editor.selected.configurable": "editing.templates"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="" />

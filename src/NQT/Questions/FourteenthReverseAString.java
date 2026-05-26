@@ -13,7 +13,6 @@ public class FourteenthReverseAString {
         if(scanner.hasNextLine()){
 
             String input = scanner.nextLine();
-
             for(int i=input.length()-1; i>=0; i--){
                 reversed += input.charAt(i);
             }

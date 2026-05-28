@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NQT/Questions/FifteenthAnagramChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NQT/Questions/EighteenthPerformLinearSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NQT/Questions/NineteenthBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NQT/Questions/SeventeenthSecondBiggestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NQT/Questions/SixteenthRemoveDuplicateFromStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NQT/Questions/FourteenthReverseAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NQT/Questions/FourteenthReverseAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/BinarySearch/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +109,9 @@
     "Application.RowColMatrix.executor": "Run",
     "Application.SearchingInBitonic.executor": "Debug",
     "Application.SelectionSort.executor": "Run",
+    "Application.SeventeenthSecondBiggestElement.executor": "Run",
     "Application.SimpleInterestCalculator.executor": "Run",
+    "Application.SixteenthRemoveDuplicateFromStrings.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.Solution2.executor": "Run",
     "Application.SplitArrayLargestSum.executor": "Run",

@@ -21,9 +21,9 @@
 17. Find the Second Largest element in an array.
 18. Perform Linear Search in an array.
 19. Perform Binary Search in a sorted array.
-20. Sort an array using Bubble Sort.
-21. Sort an array using Selection Sort.
-22. Sort an array using Insertion Sort.
+20. Sort an array using Bubble Sort. (we do the sorting at every iteration using nested loops)
+21. Sort an array using Selection Sort. (we select the index of the lowest one from nested loops then swap it later)
+22. Sort an array using Insertion Sort. (combination for -> while loop and we swap elements until we find the best position for current key)
 23. Add two matrices.
 24. Find the Transpose of a matrix.
 25. Count the frequency of a given element in an array.

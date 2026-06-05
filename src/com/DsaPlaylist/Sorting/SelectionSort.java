@@ -3,9 +3,9 @@ package com.DsaPlaylist.Sorting;
 import java.util.Arrays;
 
 public class SelectionSort {
-//this algo has them time complexity of O(n square)
 
-    //--select an element and put it into its correct index.
+//this algo has them time complexity of O(n square)
+//--select an element and put it into its correct index.
 
     static void selectionSort(int[] arr){
         int n = arr.length;
@@ -40,8 +40,6 @@ public class SelectionSort {
             int[] arr =  {34,67,340,934,765,23,78,893,4,78,312,7698,1};
 
             selectionSort(arr);
-
-
         }
 
 

@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d38886f0-bb87-4d87-b60e-abdce16b1970" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NQT/Questions/TwentyBubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NQT/Questions/TwentyTwoInsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NQT/Questions/twentyOneSelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NQT/Questions/AddTwoMetrics23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NQT/Questions/CheckSorting26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NQT/Questions/CountFrequencyOfElement25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NQT/Questions/CountWordsInString29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NQT/Questions/FindMissingNumber28.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NQT/Questions/MergeTwoArrays27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NQT/Questions/RemoveAllSpacesString30.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NQT/Questions/TransposeOfMatrix24.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NQT/Questions/NineteenthBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NQT/Questions/NineteenthBinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NQT/Questions/questions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/NQT/Questions/questions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DsaPlaylist/Sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DsaPlaylist/Sorting/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +44,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AddTwoMetrics23.executor": "Run",
     "Application.AreasAndParameters.executor": "Run",
     "Application.Armstrong.executor": "Run",
     "Application.ArmstrongNumber.executor": "Run",
@@ -53,8 +57,11 @@
     "Application.Check.executor": "Run",
     "Application.CheckEvenOdd.executor": "Run",
     "Application.CheckPrime.executor": "Run",
+    "Application.CheckSorting26.executor": "Run",
     "Application.CommissionCalculate.executor": "Run",
+    "Application.CountFrequencyOfElement25.executor": "Run",
     "Application.CountOfRotation.executor": "Run",
+    "Application.CountWordsInString29.executor": "Run",
     "Application.DeleteElementFromArray.executor": "Run",
     "Application.EighthSumOfDigits.executor": "Run",
     "Application.Factorial.executor": "Run",
@@ -62,6 +69,7 @@
     "Application.Fibonacci.executor": "Run",
     "Application.FibonacciSeries.executor": "Run",
     "Application.FifteenthAnagramChecker.executor": "Run",
+    "Application.FindMissingNumber28.executor": "Run",
     "Application.Floor.executor": "Run",
     "Application.ForwardForwardAlgorithem.executor": "Run",
     "Application.FourteenthReverseAString.executor": "Run",
@@ -91,6 +99,7 @@
     "Application.LeetCode_989.executor": "Debug",
     "Application.Main.executor": "Run",
     "Application.Math_abs.executor": "Run",
+    "Application.MergeTwoArrays27.executor": "Run",
     "Application.MountainArray.executor": "Run",
     "Application.NineteenthBinarySearch.executor": "Run",
     "Application.OrderAgnosticBinarySearch.executor": "Run",
@@ -105,6 +114,7 @@
     "Application.RangeSearching.executor": "Run",
     "Application.RecursionBinarySearch.executor": "Run",
     "Application.RecusionBiggner.executor": "Run",
+    "Application.RemoveAllSpacesString30.executor": "Run",
     "Application.ReverseNumber.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.RotatedSortedArray.executor": "Run",
@@ -125,6 +135,7 @@
     "Application.Tester.executor": "Run",
     "Application.ThirteenthCountVowelsAndConsonants.executor": "Run",
     "Application.TowerOfHanoi.executor": "Run",
+    "Application.TransposeOfMatrix24.executor": "Run",
     "Application.TwelthCheckLeapYear.executor": "Run",
     "Application.TwenthBubbleSort.executor": "Debug",
     "Application.TwentyTwoInsertionSort.executor": "Run",
@@ -158,8 +169,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
       </set>
     </attachedChunks>
   </component>

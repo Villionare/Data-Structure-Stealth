@@ -26,7 +26,7 @@
 22. Sort an array using Insertion Sort. (combination for -> while loop and we swap elements until we find the best position for current key)
 23. Add two matrices.
 24. Find the Transpose of a matrix.
-25. Count the frequency of a given element in an array.
+25. Count the frequency of a given element in an array.     
 26. Check whether an array is sorted or not.
 27. Merge two arrays.
 28. Find the Missing Number from 1 to N.

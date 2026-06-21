@@ -1,9 +1,9 @@
 package NQT.Questions;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class TwoSum50{
+
     static void main() {
         int[] nums = {2,7,11,15};
         int target = 9;

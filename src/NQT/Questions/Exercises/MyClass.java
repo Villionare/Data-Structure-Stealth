@@ -1,30 +1,23 @@
 package NQT.Questions.Exercises;
 
-import kotlin.contracts.Returns;
-
 public class MyClass{
     public static void main(String[] args){
+        //to convert a binary no into decimal multiply digits from right to increasing 2 power increasing order:
 
-        int[][] arr1 = {{1,2},{1,2},{1,2}};
-        int[][] arr2 = {{1,2},{1,2},{1,2}};
 
-        int[][] result = new int[arr1.length][arr1[0].length];
+        int binary = 1101;
+        int decimal = 0;
+        int power = 0;
 
-        for(int i=0;i<result.length;i++){
-            for(int j=0;j<result[0].length;j++){
-                result[i][j]=arr1[i][j] + arr2[i][j];
-            }
+        while(binary>0){
+
+            int last = binary%10;
+
+            decimal += (int) (last*Math.pow(2, power++));
+
+            binary /= 10;
         }
 
-
-//printing the resultant array
-        for(int i=0;i<result.length;i++){
-            for(int j=0;j<result[0].length;j++){
-                System.out.print(result[i][j]);
-            }
-            System.out.println();
-        }
-
+        System.out.println(decimal);
     }
-
 }

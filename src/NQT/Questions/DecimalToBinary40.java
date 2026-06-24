@@ -2,6 +2,12 @@ package NQT.Questions;
 
 import java.util.Scanner;
 
+//The idea is:
+//Divide the number by 2.
+//Store the remainder (0 or 1).
+//Continue until the number becomes 0.
+//Read the remainders in reverse order.
+
 public class DecimalToBinary40 {
     static void main(String[] args) {
 

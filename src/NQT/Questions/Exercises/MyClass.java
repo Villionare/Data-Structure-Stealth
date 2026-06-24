@@ -1,20 +1,17 @@
 package NQT.Questions.Exercises;
 
-import java.util.Arrays;
-
 public class MyClass{
     public static void main(String[] args){
-//program to check weather an array is sorted or not
+//program to check weather a string is a substring of larger string or not
 
-        int[] arr = {1,2,3,4,5,6,99};
+        String s = "The is diddy";
+        String check = "diddy";
 
-        for(int i=0; i<=arr.length-2; i++){
-            if(arr[i]>arr[i+1]){
-                System.out.println("not sorted");
-                    return;
-            }
-        }
+        if(s.contains(check)){
+        System.out.println("yes");
+        return;
+    }
 
-        System.out.println("sorted");
+System.out.println("not");
     }
 }

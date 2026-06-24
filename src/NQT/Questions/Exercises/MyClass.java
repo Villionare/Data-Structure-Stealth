@@ -4,24 +4,23 @@ import java.util.Arrays;
 
 public class MyClass{
     public static void main(String[] args){
-//checking palindrome
 
-        int no = 12321;
-        int original = no;
-        int reverse = 0;
+        //checking palindrome string
+        String str = "Malayalam";
+        String check = str.trim().toLowerCase();
+        int left = 0;
+        int right = check.length()-1;
 
-        while (no>0){
-            int last = no%10;
-            reverse = reverse * 10 + last;
-            no /= 10;
+        while (left<right){
+            if(check.charAt(left)!=check.charAt(right)){
+                System.out.println("not");
+                return;
+            }
+
+            left++;
+            right--;
         }
 
-        System.out.println(reverse);
-
-        if (original == reverse){
-            System.out.println("Palindrome!");
-        }else {
-            System.out.println("Not");
-        }
+        System.out.println("yes");
     }
 }

@@ -4,23 +4,17 @@ import java.util.Arrays;
 
 public class MyClass{
     public static void main(String[] args){
+//program to check weather an array is sorted or not
 
-        //checking palindrome string
-        String str = "Malayalam";
-        String check = str.trim().toLowerCase();
-        int left = 0;
-        int right = check.length()-1;
+        int[] arr = {1,2,3,4,5,6,99};
 
-        while (left<right){
-            if(check.charAt(left)!=check.charAt(right)){
-                System.out.println("not");
-                return;
+        for(int i=0; i<=arr.length-2; i++){
+            if(arr[i]>arr[i+1]){
+                System.out.println("not sorted");
+                    return;
             }
-
-            left++;
-            right--;
         }
 
-        System.out.println("yes");
+        System.out.println("sorted");
     }
 }

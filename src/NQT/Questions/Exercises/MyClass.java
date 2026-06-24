@@ -1,23 +1,27 @@
 package NQT.Questions.Exercises;
 
+import java.util.Arrays;
+
 public class MyClass{
     public static void main(String[] args){
-        //to convert a binary no into decimal multiply digits from right to increasing 2 power increasing order:
+//checking palindrome
 
+        int no = 12321;
+        int original = no;
+        int reverse = 0;
 
-        int binary = 1101;
-        int decimal = 0;
-        int power = 0;
-
-        while(binary>0){
-
-            int last = binary%10;
-
-            decimal += (int) (last*Math.pow(2, power++));
-
-            binary /= 10;
+        while (no>0){
+            int last = no%10;
+            reverse = reverse * 10 + last;
+            no /= 10;
         }
 
-        System.out.println(decimal);
+        System.out.println(reverse);
+
+        if (original == reverse){
+            System.out.println("Palindrome!");
+        }else {
+            System.out.println("Not");
+        }
     }
 }

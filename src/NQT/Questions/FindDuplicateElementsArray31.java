@@ -1,5 +1,7 @@
 package NQT.Questions;
 
+import java.util.ArrayList;
+
 public class FindDuplicateElementsArray31 {
     static void main() {
         int[] arr = {2,3,4,5,67,7,8,9,2,5,7,2};

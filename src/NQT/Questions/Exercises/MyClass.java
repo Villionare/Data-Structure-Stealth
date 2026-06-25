@@ -1,25 +1,26 @@
 package NQT.Questions.Exercises;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class MyClass{
     public static void main(String[] args) {
-        //this program is to find out weather two strings are anagram or not
-        String o = "Silent";
-        String t = "Listen";
 
-        String one = o.toLowerCase().trim();
-        String two = t.toLowerCase().trim();
-        char[] oo = one.toCharArray();
-        char[] tt = two.toCharArray();
+//THIS IS TO FIND ALL THE DUPLICATE ELEMENTS IN AN ARRAY
 
-        Arrays.sort(oo);
-        Arrays.sort(tt);
+        ArrayList<Integer> arrayList = new ArrayList<Integer>();
 
-        if(Arrays.equals(oo, tt)){
-            System.out.println("Anagram");
-        }else{
-            System.out.println("not Anagram");
+        int[] arr = {1,2,3,4,5,2,5,1,99,23};
+
+        for(int i=0; i<arr.length-1; i++){
+            for(int j=i+1; j<arr.length; j++){
+                if(arr[i]==arr[j]){
+                    arrayList.add(arr[i]);
+                    break;
+                }
+            }
         }
+
+        System.out.println(arrayList);
     }
 }

@@ -13,14 +13,6 @@ public class SixteenthRemoveDuplicateFromStrings {
         String resultant = "";
 
         for (int i=0; i<inp.length(); i++){
-//            for (int j=i+1; j<inp.length(); j++){
-//
-//                if (inp.charAt(i) == inp.charAt(j)){
-//                    break;
-//                }
-//                resultant += inp.charAt(i);
-//                    break;
-//            }
             char check = inp.charAt(i);
 
             if(resultant.indexOf(check)==-1){
@@ -29,8 +21,6 @@ public class SixteenthRemoveDuplicateFromStrings {
         }
 
         System.out.println(resultant);
-
-
 
     }
 }

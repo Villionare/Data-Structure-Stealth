@@ -8,7 +8,6 @@ public class ThirteenthCountVowelsAndConsonants {
         int vowels = 0;
         int consonant = 0;
         char[] array;
-        char[] consonants = {'a', 'e', 'i', 'o','u'};
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the Word");

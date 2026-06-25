@@ -10,7 +10,7 @@ public class TwentyTwoInsertionSort {
                 int key = arr[i];
                 int j = i-1;
 
-                //this loop will continue to swap elements from current i tell arr[0] if arr[j]>key
+                //this loop will continue to swap elements from current i till arr[0] if arr[j]>key
                 while (j>=0 && arr[j]>key){
 
                     arr[j+1] = arr[j];

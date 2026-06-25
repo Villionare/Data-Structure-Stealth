@@ -1,40 +1,28 @@
 package NQT.Questions.Exercises;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class MyClass{
     public static void main(String[] args) {
+//binary search
 
-//program to write fibonacchi series upto certain point
+        int[] arr = {1,3,5,7,8,9,23,68,90};
 
-        Scanner sc = new Scanner(System.in);
-        int inp = 0;
+        int target = 8;
+        int start = 0;
+        int end = arr.length-1;
 
-        System.out.print("Enter how many Fibonacci series you wanna print: ");
+        while(start<=end){
+            int mid = start + (end - start)/2;
 
-        while(true){
-
-            if(sc.hasNextInt()){
-                inp = sc.nextInt();
-                break;
+            if(arr[mid]>target){
+                end = mid - 1;
+            }else if(arr[mid]<target){
+                start = mid + 1;
             }else{
-                System.out.println("Error! Enter an Integer number");
-                sc.next();
+                System.out.println("Found the element at : " + mid);
+                break;
             }
+
         }
 
-        int a = 0;
-        int b = 1;
-        int c = 0;
-
-        for(int n=1; n<=inp; n++){
-            System. out.printf(" %d,",a);
-
-            c = a+b;
-            a = b;
-            b = c;
-        }
     }
 }

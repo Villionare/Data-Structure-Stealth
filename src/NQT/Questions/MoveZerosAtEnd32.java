@@ -1,6 +1,7 @@
 package NQT.Questions;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 public class MoveZerosAtEnd32 {
     static void main() {
@@ -11,7 +12,6 @@ public class MoveZerosAtEnd32 {
                 0, 11, 14, 6, 0,
                 2, 10, 13, 0, 4
         };
-
         int index = 0;
 
         // Move all non-zeros to the front

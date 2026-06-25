@@ -1,12 +1,13 @@
 package NQT.Questions;
 
+import java.util.Arrays;
+
 public class NineteenthBinarySearch {
 
     static void main() {
         //binary search can only be done on an sorted array
 
         int[] arr = {1,3,5,7,8,9,23,68,90};
-
         int target = 8;
         int start = 0;
         int end = arr.length-1;

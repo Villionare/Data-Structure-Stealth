@@ -3,25 +3,18 @@ package NQT.Questions;
 import java.util.Scanner;
 
 public class EleventhCheckLCM {
-    static void main() {
+        public static void main(String[] args) {
+            int a = 12;
+            int b = 18;
 
-        Scanner scanner = new Scanner(System.in);
+            int max = Math.max(a, b);
 
-        System.out.println("input first");
-        int a = scanner.nextInt();
-
-        System.out.println("input second");
-        int b = scanner.nextInt();
-        int x = a, y = b;
-
-        while(y != 0){
-            int temp = y;
-            y = x % y;
-            x = temp;
+            while (true) {
+                if (max % a == 0 && max % b == 0) {
+                    System.out.println("LCM = " + max);
+                    break;
+                }
+                max++;
+            }
         }
-
-        int gcd = x;
-        int lcm = (a * b) / gcd;
-        System.out.println(lcm);
-    }
 }

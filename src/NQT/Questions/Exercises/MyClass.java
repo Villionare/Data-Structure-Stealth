@@ -2,25 +2,39 @@ package NQT.Questions.Exercises;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class MyClass{
     public static void main(String[] args) {
 
-//THIS IS TO FIND ALL THE DUPLICATE ELEMENTS IN AN ARRAY
+//program to write fibonacchi series upto certain point
 
-        ArrayList<Integer> arrayList = new ArrayList<Integer>();
+        Scanner sc = new Scanner(System.in);
+        int inp = 0;
 
-        int[] arr = {1,2,3,4,5,2,5,1,99,23};
+        System.out.print("Enter how many Fibonacci series you wanna print: ");
 
-        for(int i=0; i<arr.length-1; i++){
-            for(int j=i+1; j<arr.length; j++){
-                if(arr[i]==arr[j]){
-                    arrayList.add(arr[i]);
-                    break;
-                }
+        while(true){
+
+            if(sc.hasNextInt()){
+                inp = sc.nextInt();
+                break;
+            }else{
+                System.out.println("Error! Enter an Integer number");
+                sc.next();
             }
         }
 
-        System.out.println(arrayList);
+        int a = 0;
+        int b = 1;
+        int c = 0;
+
+        for(int n=1; n<=inp; n++){
+            System. out.printf(" %d,",a);
+
+            c = a+b;
+            a = b;
+            b = c;
+        }
     }
 }

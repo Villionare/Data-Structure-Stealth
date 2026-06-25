@@ -2,7 +2,7 @@ package NQT.Questions;
 
 import java.util.Scanner;
 
-public class FourthFibonacci {
+public class    FourthFibonacci {
     public static void main(String[] args){
 
         int first = 0;
